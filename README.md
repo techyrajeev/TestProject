@@ -5,8 +5,6 @@
 First Go to Project directory
 
 ```
-#!shell
-
 cd ~/Project
 
 ```
@@ -16,7 +14,6 @@ then
  
 
 ```
-#!shell
 npm install
 
 ```
@@ -24,14 +21,11 @@ npm install
  
 Currently there are no test cases written for this project as it was not required.
 ```
-#!shell
-
 npm run test
 
 ```
 ### 3. Run the project
 ```
-#!shell
  npm run dash
 ```
 

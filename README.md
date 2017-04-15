@@ -5,7 +5,7 @@
 First Go to Project directory
 
 ```
-cd ~/Project
+cd ~/TestProject
 ```
 then
 

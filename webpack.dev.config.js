@@ -1,8 +1,6 @@
 const path     = require('path');
 const webpack  = require('webpack');
 
-const cloudEnv = config.getEnvironment(process.env.CLOUD_ENV);
-
 module.exports = {
 
   devtool: 'eval-source-map',

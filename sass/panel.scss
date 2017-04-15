@@ -1,0 +1,72 @@
+.panel-a-success {
+    border : 4px solid $color_la_palma_approx;
+    color  : $color_success_label !important;
+    //background-color : $concrete;
+    @include success-bg();
+    &[aria-expanded=true] {
+        border-bottom:none;
+    }
+}
+.panel-a-error {
+    border : 4px solid $color_cerise_red_approx;
+    color  : $color_error_label !important;
+    //background-color : $color_seashell_approx;
+
+    @include error-bg();
+
+    &[aria-expanded=true] {
+        border-bottom:none;
+    }
+
+}
+
+.panel-a-disabled {
+    border           : 4px solid $color_disabled_border;
+    //background-color : $color_seashell_approx;
+
+    @include disabled-bg();
+    &[aria-expanded=true] {
+        border-bottom:none;
+    }
+}
+
+.panel-a-active {
+    color  : $color_active_label !important;
+    border : 4px solid $color_active_border;
+    @include active-bg();
+    &[aria-expanded=true] {
+        border-bottom:none;
+    }
+}
+
+.panel-success {
+    border     : 4px solid $color_la_palma_approx;
+    border-top : none;
+    //background-color : $concrete;
+
+    @include success-bg();
+}
+.panel-error {
+    border     : 4px solid $color_cerise_red_approx;
+    border-top : none;
+    //background-color : $color_seashell_approx;
+
+    @include error-bg();
+
+}
+
+.panel-disabled {
+    border     : 4px solid $color_disabled_border;
+    border-top : none;
+    //background-color : $color_seashell_approx;
+
+    @include disabled-bg();
+
+}
+
+.panel-active {
+    border     : 4px solid $color_active_border;
+    border-top : none;
+
+    @include active-bg();
+}

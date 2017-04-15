@@ -1,0 +1,48 @@
+
+
+
+/********** Mixins for buttons ********/
+
+@mixin btn-theme($btn-color) {
+	border-color     : darken($btn-color, 20%);
+	background-color : $btn-color;
+	&:hover {
+		background-color : darken($btn-color, 6%);
+		box-shadow       : 0 .125em $off-wht, inset 0 .063em $off-wht, inset 0 -.188em lighten($btn-color, 2%);
+	}
+	&:active {
+		box-shadow: 0 .063em $off-wht, inset 0 0 1.094em darken($btn-color, 40%), inset 0 .063em darken($btn-color, 20%),inset 0 -0.188em darken($btn-color, 20%); 
+	}
+}
+
+@mixin success-bg {
+    background: #e3fce8; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #e3fce8 0%, #ffffff 44%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #e3fce8 0%,#ffffff 44%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #e3fce8 0%,#ffffff 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3fce8', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin error-bg {
+    background: #ffe6e5; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ffe6e5 0%, #ffffff 44%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ffe6e5 0%,#ffffff 44%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ffe6e5 0%,#ffffff 44%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe6e5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin disabled-bg {
+    background: #ebedf8; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #ebedf8 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #ebedf8 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #ebedf8 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebedf8', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin active-bg {
+    background: #d2d8f7; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #d2d8f7 0%, #ffffff 62%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #d2d8f7 0%,#ffffff 62%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #d2d8f7 0%,#ffffff 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d8f7', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

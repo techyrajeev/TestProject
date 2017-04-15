@@ -7,16 +7,16 @@ Testing of this application can be done in following ways -
 
 This would be actually testing the features from the end user's perspective 
 
-###Correctness
+### Correctness
 The details which we are show to end user is correct or not i.e should match with source data.
 
-###Easy to interpret and present
+### Easy to interpret and present
 End result should be displayed in the format which is quite easy to grasp e.g in form of table or charts.
 
-###Dynamic, plug and play
+### Dynamic, plug and play
 End user can change the source of data and should get the updated result based on new data.
 
-###Responsive
+### Responsive
 User-interface is responsive as per the consumer's media devices, also user-interface send notifications or alert during or after performing some long running task and is non-blocking.
 
 ### Unit testing

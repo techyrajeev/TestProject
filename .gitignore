@@ -1,8 +1,8 @@
 node_modules/
 style.css
 npm-debug.log
-public/bundle.*.js.map
-public/bundle.*.js
+public/bundle.js.map
+public/bundle.js
 public/style.css
 public/style.css.map
 public/index.html

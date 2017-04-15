@@ -29,3 +29,6 @@ npm run test
 ### 4. See live project in local browser 
  ###
 Open the Url(http://localhost:8080/) in browser
+
+See [Testing and Scalability](/test_scale.md/) page for other details.   
+

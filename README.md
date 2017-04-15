@@ -6,7 +6,6 @@ First Go to Project directory
 
 ```
 cd ~/Project
-
 ```
 then
 
@@ -15,14 +14,12 @@ then
 
 ```
 npm install
-
 ```
 ### 2. Run the test cases
  
 Currently there are no test cases written for this project as it was not required.
 ```
 npm run test
-
 ```
 ### 3. Run the project
 ```

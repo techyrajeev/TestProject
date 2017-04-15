@@ -1,0 +1,19 @@
+{
+  "name": "test_project",
+  "version": "1.0.0",
+  "description": "Test Demo Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techyrajeev/TestProject.git"
+  },
+  "author": "Rajeev Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techyrajeev/TestProject/issues"
+  },
+  "homepage": "https://github.com/techyrajeev/TestProject#readme"
+}

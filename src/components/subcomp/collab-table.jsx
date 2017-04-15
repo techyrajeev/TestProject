@@ -60,7 +60,7 @@ export default class CollabTable extends React.Component {
         return (
             <div className="container">
               <h3 className="text-center">Authors and their contributions</h3>
-              <p className="text-center">Below matrix show the name of authors and their contributions with fellow authors.</p>
+              <p className="text-center">Below matrix shows the name of authors and their contributions with fellow authors.</p>
               <div className="table-responsive">
                   <table className="table table-bordered">
                       { this.generateTableHeader() }

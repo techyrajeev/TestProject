@@ -4,11 +4,9 @@ import CollabTable from './subcomp/collab-table';
 import Footer      from './footer';
 import MainStore   from '../stores/main-store';
 import Reflux      from 'reflux';
-import Utils       from '../utils/Utility';
 import Actions     from '../actions';
 import Modal       from './common/Modal';
 import MButton     from './common/simple-button';
-import _           from 'lodash';
 
 module.exports   = React.createClass({
 

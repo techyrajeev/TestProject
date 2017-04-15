@@ -1,4 +1,3 @@
-import Utils from './Utility';
 import data from './data.json';
 
 module.exports = {

@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "rimraf public/bundle.*",
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
-    "postinstall-prod": "npm run clean && npm run build",
+    "postinstall": "npm run clean && npm run build",
     "start": "node server.js",
     "dash": "webpack-dashboard -- node server.js",
     "dev": "node server.js",

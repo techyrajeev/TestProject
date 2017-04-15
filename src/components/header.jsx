@@ -11,7 +11,7 @@ const Header = () =>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="#"><span>Embl-Ebi Test Project</span></a>
+                    <a className="navbar-brand" href="#"><span>Test Project</span></a>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar-ex-collapse">
                     <ul className="nav navbar-nav navbar-right">

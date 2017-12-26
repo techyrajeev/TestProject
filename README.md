@@ -31,10 +31,5 @@ npm run test
 Open the Url(http://localhost:8080/) in browser
 
 
-### Live Test Project on Heroku ###
-
-[https://ebiproject.herokuapp.com/](https://ebiproject.herokuapp.com/)
-
-
 See [Testing and Scalability](/test_scale.md/) page for other details.   
 
